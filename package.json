@@ -1,0 +1,33 @@
+{
+  "name": "babostha-server",
+  "version": "0.0.0",
+  "description": "Babostha server",
+  "main": "index.js",
+  "type": "module",
+  "packageManager": "pnpm@7.26.2",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "deploy": "vercel --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilashism/babostha-server.git"
+  },
+  "author": "Md. Taifuzzaman Bilash <bilashism@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bilashism/babostha-server/issues"
+  },
+  "homepage": "https://github.com/bilashism/babostha-server#readme",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^4.13.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
